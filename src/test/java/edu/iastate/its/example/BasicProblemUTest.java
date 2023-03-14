@@ -7,15 +7,15 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BasicProblemUTest {
 
-    private BasicProblem basicProblem;
+  private BasicProblem basicProblem;
 
-    @BeforeEach
-    void setUp() {
-        basicProblem = new BasicProblem();
-    }
+  @BeforeEach
+  void setUp() {
+    basicProblem = new BasicProblem();
+  }
 
-    @Test
-    void test1() {
-        assertEquals(8, basicProblem.doSum(5, 3));
-    }
+  @Test
+  void test1() {
+    assertEquals(8, basicProblem.doSum(5, 3));
+  }
 }
